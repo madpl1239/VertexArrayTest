@@ -1,14 +1,8 @@
-This is a simple example of two classes that define the ability to use shaderless vertex arrays for drawing in OpenGL.</b>
+![alt text](image.png)
+This is a simple example of two classes that define the ability to use shaderless vertex arrays for drawing in OpenGL.<br/>
 
-requirement:</b>
+requirement: ASSIMP library version >= 3, SFML library version >= 2.6<br/>
 
-ASSIMP library version >= 3</b>
-
-SFML library version >= 2.6</b>
-
-compilation:</b>
-
-cmake -S . -B ./build
-
-cmake --build  ./build
-
+compilation:<br/>
+cmake -S . -B ./build<br/>
+cmake --build  ./build<br/>

@@ -2,6 +2,13 @@ This is a simple example of two classes that define the ability to use shaderles
 
 requirement:</b>
 
-ASSIMP library v >= 3</b>
-SFML library >= 2.6</b>
+ASSIMP library version >= 3</b>
+
+SFML library version >= 2.6</b>
+
+compilation:</b>
+
+cmake -S . -B ./build
+
+cmake --build  ./build
 

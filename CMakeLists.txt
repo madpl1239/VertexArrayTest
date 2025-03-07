@@ -11,8 +11,13 @@ else()
 endif()
 
 file(GLOB_RECURSE SOURCE ./source/*)
-find_package(ASSIMP)
 find_package(SFML 2.5 REQUIRED COMPONENTS system window graphics)
+
+set(ASSIMP_INC "/usr/local/include/")
+set(ASSIMP_LIB "/usr/local/lib/")
+
+include_directories(${ASSIMP_INC})
+link_directories(${ASSIMP_LIB})
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
 

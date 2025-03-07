@@ -12,7 +12,7 @@ endif()
 
 file(GLOB_RECURSE SOURCE ./source/*)
 find_package(ASSIMP)
-find_package(SFML 2.6 REQUIRED COMPONENTS system window graphics)
+find_package(SFML 2.5 REQUIRED COMPONENTS system window graphics)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
 
